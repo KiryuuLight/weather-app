@@ -6,7 +6,7 @@ const fetchConfig = () => {
 const fetchToAPI = async (location) => {
     const API_KEY = fetchConfig();
     const request = await fetch(
-        `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&days=6&aqi=no&alerts=no`,
+        `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&days=6&aqi=no&alerts=no`,
         {
             mode: 'cors',
         }
