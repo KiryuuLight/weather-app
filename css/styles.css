@@ -1,0 +1,184 @@
+:root {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.m-1200 {
+    width: 1200px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.search-bar {
+    position: relative;
+}
+
+#btnSearchInput {
+    all: unset;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 10px;
+    width: 500px;
+    padding: 2.5rem 1rem;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.icon {
+    width: 50px;
+    position: absolute;
+    left: 90%;
+    top: 12%;
+    opacity: .3;
+}
+
+.country-city {
+    font-size: 6.2rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.temperature-card {
+    display: flex;
+    gap: 6rem;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+    padding: 0 8rem 0 0;
+}
+
+.temperature-card img {
+    width: 150px;
+}
+
+.temperature {
+    font-size: 14rem;
+}
+
+.scale {
+    display: flex;
+    font-size: 6.2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.not-selected {
+    opacity: 0.5 !important;
+}
+
+.condition {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0 0 1rem 0;
+    font-weight: 300;
+}
+
+.last-updated {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.more-information {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(170px, 250px));
+    gap: 2rem;
+    padding: 1rem 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+}
+
+.select-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    font-size: 4rem;
+    font-weight: 300;
+    padding: 1rem 0;
+}
+
+.forecast-information {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 250px));
+    gap: 2rem;
+}
+
+.forecast-card {
+    background-color: rgba(54, 46, 46, 0.1);
+    padding: 3rem 2rem;
+}
+
+.forecast-card p {
+    padding: 1rem 0;
+}
+
+.p-20 {
+    font-size: 2rem;
+}
+
+.p-30 {
+    font-size: 3rem;
+}
+
+.p-40 {
+    font-size: 4rem;
+}
+
+.icon-forecast {
+    width: 50px;
+}
+
+#hourly {
+    display: none;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    opacity: 0.5;
+}
+
+.error img {
+    width: 400px;
+}
+
+.error p {
+    color: black;
+    font-size: 10rem;
+    padding: 4rem 0;
+}
